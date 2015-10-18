@@ -7,5 +7,6 @@ interface JQueryKeyFrames {
 	getVendorPrefix: () => string;
 	isSupported: () => boolean;
 	generate: (frameData: string[]) => void;
+	//TODO: add typing to argument
 	define: (frameData: any) => void;
 }
